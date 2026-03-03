@@ -17,13 +17,13 @@ if not pygame.get_init():
 
 metadata = (
     GameMeta()
-    .with_title("Arkanoid Pixel")
+    .with_title("Arkanoid")
     .with_description("Juego de romper bloques inspirado en el Arkanoid clásico de NES")
-    .with_release_date("1986")
-    .with_group_number(1)
+    .with_release_date("2026")
+    .with_group_number(5)
     .add_tag("Arcade")
     .add_tag("Bloques")
-    .add_author("César Rodriguez")
+    .add_author(["César Rodríguez","Rovel Pérez"])
 )
 
 game = ArkanoidGame(metadata)
