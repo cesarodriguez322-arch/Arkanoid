@@ -1,5 +1,5 @@
 import pygame
-from .constants import WHITE, RED
+from src.arkanoid.constants import WHITE, RED
 
 
 # --- Colisiones ---

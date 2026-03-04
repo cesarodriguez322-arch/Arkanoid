@@ -1,10 +1,10 @@
 import pygame
 from arcade_machine_sdk import GameBase, GameMeta
 
-from .constants import GAME_WIDTH, GAME_HEIGHT, WHITE, GREEN, RED
-from .entities import Pelota, Raqueta, Bloques
-from .logic import colisiones, dibujar_boton, dibujar_vidas
-from . import assets
+from src.arkanoid.constants import GAME_WIDTH, GAME_HEIGHT, WHITE, GREEN, RED
+from src.arkanoid.entities import Pelota, Raqueta, Bloques
+from src.arkanoid.logic import colisiones, dibujar_boton, dibujar_vidas
+import src.arkanoid.assets as assets
 
 
 class ArkanoidGame(GameBase):

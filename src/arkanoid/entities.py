@@ -1,6 +1,6 @@
 import pygame
 import random
-from .constants import WHITE, BLUE, PURPLE, RED, GREEN
+from src.arkanoid.constants import WHITE, BLUE, PURPLE, RED, GREEN
 
 
 # --- Pelota ---
